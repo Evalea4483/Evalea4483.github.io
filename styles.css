@@ -54,7 +54,8 @@ header li{
 }
 
 header #branding{
-    float:left;
+    float: left;
+    padding: 0;
 }
 
 header #branding h3{
@@ -89,7 +90,7 @@ header a:hover{
     background-size: cover;
 }
 .bgimg1{
-    background-image: url("images/bgimg1.jpg");
+    background-image: url("images_2/bgimg1.jpg");
     min-height: 100%;
     align-content:contain;
 }
@@ -101,7 +102,7 @@ header a:hover{
     background-size:cover;
 }
 .bgimg2{
-    background-image: url("images/Bgimg2.jpg");
+    background-image: url("images_2/bgimg2.png");
     min-height: 100px;
     background-position: center
 }
@@ -113,7 +114,7 @@ header a:hover{
     background-size:cover;
 }
 .bgimg3{
-    background-image: url("images/bgimg3.jpg");
+    background-image: url("images_2/bgimg3.jpg");
     min-height: 200px;
     background-position:center;
     background-size:cover;
@@ -127,7 +128,7 @@ header a:hover{
     background-size:cover;
 }
 .bgimg4{
-    background-image: url("images/bgimg4.jpg");
+    background-image: url("images_2/bgimg4.jpg");
     min-height: 100%;
     background-position:center;
     background-size:auto;
@@ -140,7 +141,7 @@ header a:hover{
     background-size:cover;
 }
 .bgimg5{
-    background-image: url("images/bgimg5.jpg");
+    background-image: url("images_2/bgimg5.jpg");
     min-height: 300px;
 }
 .bgimg7{
@@ -151,7 +152,7 @@ header a:hover{
     background-size: cover;
 }
 .bgimg7{
-    background-image: url("images/bgimg7.jpg");
+    background-image: url("images_2/bgimg7.jpg");
     min-height: 200px;
 }
 .bgimg8{
@@ -162,7 +163,7 @@ header a:hover{
     background-size: cover;
 }
 .bgimg8{
-    background-image: url("images/bgimg8.jpg");
+    background-image: url("images_2/bgimg8.jpg");
     min-height: 200px;
 }
 .bgimg9{
@@ -173,6 +174,19 @@ header a:hover{
     background-size: cover;
 }
 .bgimg9{
-    background-image: url("images/bgimg9.jpg");
+    background-image: url("images_2/bgimg9.jpg");
     min-height: 300px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#D08900;
+}
+
+a:hover {
+    color:#FBC763;
 }
